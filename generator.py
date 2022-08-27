@@ -36,6 +36,8 @@ ws = wb.active
 
 wb.save(spreadsheet)
 
-#%%
+# %%
 df = pd.read_excel(spreadsheet)
 print(df)
+
+# PDF generator code will be uploaded soon
