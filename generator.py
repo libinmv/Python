@@ -6,7 +6,7 @@ import openpyxl as xl
 import formulas
 import pdfkit
 
-spreadsheet = "/Users/libin/Downloads/sample_2.xlsx"
+spreadsheet = "/Users/libin/Downloads/sample_1.xlsx"
 
 wb_init = xl.load_workbook(filename=spreadsheet, data_only=False)
 ws = wb_init.active
