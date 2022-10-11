@@ -7,6 +7,8 @@ counter = itertools.count(1)
 
 keys = [list(x.keys()) for x in inp]
 vals = [list(x.values()) for x in inp]
+
 sum = [sum(x) for x in vals]
+
 test = [print("Sum of elements in dict " + str(next(counter)) + " = " + str(i))
         for i in sum]
