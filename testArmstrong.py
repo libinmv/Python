@@ -1,6 +1,5 @@
 from tempfile import TemporaryDirectory
 
-
 def is_armstrong_number(number):
     digCount = len(str(number))
     # print(digCount)
