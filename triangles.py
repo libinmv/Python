@@ -1,3 +1,4 @@
+
 def equilateral(sides):
     if (sides[0] == sides[1]) and (sides[0] == sides[2]):
         return True
